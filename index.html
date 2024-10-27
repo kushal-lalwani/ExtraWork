@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <script src="https://kit.fontawesome.com/97238f579d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+
+
+</head>
+
+<body class="bg-gray-50">
+    <div class="bg-blue-500">
+        <div class="py-4 flex text-white justify-center min-[950px]:justify-around items-center">
+            <div>
+                <h1 class="text-3xl font-bold ">GrowMark</h1>
+            </div>
+            <div class="">
+                <ul class="flex flex-row gap-5 justify-center items-center max-[950px]:hidden">
+                    <li>123Street, New York, USA</li>
+                    <li>info@example.com</li>
+                    <li>+088 453 54785</li>
+                    <li class="bg-white text-blue-500 w-8 h-8 flex justify-center items-center rounded-full"><i
+                            class="fa-brands fa-facebook-f fa-md "></i></li>
+                    <li class="bg-white text-blue-500 w-8 h-8 flex justify-center items-center rounded-full"><i
+                            class="fa-brands fa-twitter fa-md "></i></li>
+                    <li class="bg-white text-blue-500 w-8 h-8 flex justify-center items-center rounded-full"><i
+                            class="fa-brands fa-linkedin-in fa-md "></i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="py-3  w-full max-[750px]:hidden">
+        <div class="flex justify-around ">
+            <ul class="flex gap-12 items-center">
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Projects</li>
+                <li>Pages</li>
+                <li>Contact</li>
+            </ul>
+            <div>
+                <button class="rounded-full bg-blue-500 p-2 px-4 text-white ">Get A Quote</button>
+            </div>
+        </div>
+
+    </div>
+    
+<div class="swiper-container h-screen relative overflow-hidden">
+    <div class="swiper-wrapper">
+        <!-- Slide 1 -->
+        <div class="swiper-slide h-screen flex items-center justify-center">
+            <img src="./img/carousel-1.jpg" class="w-full h-full object-cover md:object-fill" />
+            <div class="absolute top-[15%] left-[5%] lg:left-[10%] text-white w-3/4 md:w-1/2 xl:top-[25%]">
+                <h3 class="text-xl font-light sm:text-2xl md:text-3xl">Welcome to <span
+                        class="font-medium text-2xl sm:text-4xl md:text-5xl">GrowMark</span></h3>
+                <h1 class="text-4xl font-bold sm:text-6xl md:text-7xl">Unlock Your Business Growth</h1>
+                <button class="bg-blue-600 px-6 py-3 my-10 rounded-3xl text-lg">Explore More</button>
+            </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="swiper-slide h-screen flex items-center justify-center">
+            <img src="./img/carousel-2.jpg" class="w-full h-full object-cover md:object-fill" />
+            <div class="absolute top-[15%] right-[5%] lg:right-[10%] text-white w-3/4 md:w-1/2 xl:top-[25%]">
+                <h3 class="text-xl font-light sm:text-2xl md:text-3xl">Welcome to <span
+                        class="font-medium text-2xl sm:text-4xl md:text-5xl">GrowMark</span></h3>
+                <h1 class="text-4xl font-bold sm:text-6xl md:text-7xl">Ready To Grow Your Business</h1>
+                <button class="bg-blue-600 px-6 py-3 my-10 rounded-3xl text-lg">Explore More</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Swiper Pagination & Navigation Buttons -->
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+</div>
+
+
+
+
+
+
+    <div
+        class="flex flex-wrap justify-center mt-24 sm:gap-4 md:gap-5 lg:gap-0 max-[640px]:gap-4 max-[640px]:mx-5 sm:mx-5 md:mx-5 ">
+        <div
+            class="w-full sm:w-[48%] md:w-[31%] lg:w-[20%] bg-white border-r-gray-200 shadow-[0px_0px_12px_2px_rgba(0,0,0,0.05)]">
+            <div class="p-5">
+                <img class="my-4" src="./img/icon/icon-1.png" alt="">
+                <p class="text-xl font-medium my-3">Award Winning</p>
+                <p class="font-extralight my-3">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam</p>
+            </div>
+        </div>
+        <div class="w-full sm:w-[48%] md:w-[31%] lg:w-[20%] bg-white shadow-[0px_0px_12px_2px_rgba(0,0,0,0.05)]">
+            <div class="p-5">
+                <img class="my-4" src="./img/icon/icon-2.png" alt="">
+                <p class="text-xl font-medium my-3">Award Winning</p>
+                <p class="font-extralight my-3">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam</p>
+            </div>
+        </div>
+        <div class="w-full sm:w-[48%] md:w-[31%] lg:w-[20%] bg-white shadow-[0px_0px_12px_2px_rgba(0,0,0,0.05)]">
+            <div class="p-5">
+                <img class="my-4" src="./img/icon/icon-3.png" alt="">
+                <p class="text-xl font-medium my-3">Award Winning</p>
+                <p class="font-extralight my-3">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam</p>
+            </div>
+        </div>
+        <div class="w-full sm:w-[48%] md:w-[31%] lg:w-[20%] bg-white shadow-[0px_0px_12px_2px_rgba(0,0,0,0.05)]">
+            <div class="p-5">
+                <img class="my-4" src="./img/icon/icon-4.png" alt="">
+                <p class="text-xl font-medium my-3">Award Winning</p>
+                <p class="font-extralight my-3">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="flex justify-center mt-20">
+        <div class="flex justify-between bg-cover items-center bg-no-repeat w-[70%]"
+            style="background-image: url(./img/about.jpg); height: 700px;">
+            <div class="h-full w-1/2 flex justify-center">
+                <button><img src="./img/icon/icon-3.png" alt=""></button>
+            </div>
+            <div class="h-full w-1/2 relative">
+                <div class="bg-white h-[90%] mt-[11%] rounded-t-lg mx-6 p-10">
+                    <p class="text-blue-500 text-xl">About us</p>
+                    <h1 class="font-bold text-4xl mt-3">The Best Marketing Agency to Improve Your Business</h1>
+                    <p class="my-6 font-light text-gray-600"> erat ipsum et lorem et sta ceat ipsum derat ipsum et lorem
+                        et sta ceat ipsum derat ipsum et lorem et sta ceat ipsum erat ipsum et lorem Clta erat ipsum et
+                        lorem et sta ceat ipsum dolor ruab</p>
+                    <div class="flex justify-between">
+                        <div class="w-6/12 mr-3 ">
+                            <img src="./img/icon/icon-5.png" alt="">
+                            <p class="font-medium my-5">Managed Services</p>
+                            <p class="font-light text-gray-600">Clta erat ipsum et lorem et sta ceat ipsum dolor ruab.
+                            </p>
+                        </div>
+                        <div class="w-6/12 ml-3 ">
+                            <img src="./img/icon/icon-2.png" alt="">
+                            <p class="font-medium my-5">Managed Services</p>
+                            <p class="font-light text-gray-600">Clta erat ipsum et lorem et sta ceat ipsum dolor ruab.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mt-10">
+                        <button class="py-3 px-10 bg-blue-500 rounded-full text-white">
+                            Explore More
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mt-20 container w-2/3 mx-auto">
+        <div class=" w-2/6 text-center mx-auto">
+            <p class="text-blue-500 text-xl my-4 text-center">Our Services</p>
+            <p class="text-4xl text-center my-3 font-bold">Digital Marketing <br> Services that We Offer</p>
+        </div>
+        <div class=" flex flex-wrap justify-between gap-6 my-12 lg:gap-4">
+            <div
+                class="w-[32%] border flex flex-col shadow-[0px_0px_12px_2px_rgba(0,0,0,0.1)] rounded-lg justify-center items-center p-8">
+                <img src="./img/icon/icon-2.png" alt="" class="h-16 w-16">
+                <p class="font-medium my-5">Managed Services</p>
+                <p class="font-light text-center text-gray-600">Clta erat ipsum et lorem et sta ceat ipsum dolor ruab.
+                    Clta erat ipsum et lorem et sta ceat ipsum dolor ruab.
+                </p>
+            </div>
+            <div
+                class="w-[32%] border flex flex-col shadow-[0px_0px_12px_2px_rgba(0,0,0,0.1)] rounded-lg justify-center items-center p-8">
+                <img src="./img/icon/icon-2.png" alt="" class="h-16 w-16">
+                <p class="font-medium my-5">Managed Services</p>
+                <p class="font-light text-center text-gray-600">Clta erat ipsum et lorem et sta ceat ipsum dolor ruab.
+                    Clta erat ipsum et lorem et sta ceat ipsum dolor ruab.
+                </p>
+            </div>
+            <div
+                class="w-[32%] border flex flex-col shadow-[0px_0px_12px_2px_rgba(0,0,0,0.1)] rounded-lg justify-center items-center p-8">
+                <img src="./img/icon/icon-2.png" alt="" class="h-16 w-16">
+                <p class="font-medium my-5">Managed Services</p>
+                <p class="font-light text-center text-gray-600">Clta erat ipsum et lorem et sta ceat ipsum dolor ruab.
+                    Clta erat ipsum et lorem et sta ceat ipsum dolor ruab.
+                </p>
+            </div>
+            <div
+                class="w-[32%] border flex flex-col shadow-[0px_0px_12px_2px_rgba(0,0,0,0.1)] rounded-lg justify-center items-center p-8">
+                <img src="./img/icon/icon-2.png" alt="" class="h-16 w-16">
+                <p class="font-medium my-5">Managed Services</p>
+                <p class="font-light text-center text-gray-600">Clta erat ipsum et lorem et sta ceat ipsum dolor ruab.
+                    Clta erat ipsum et lorem et sta ceat ipsum dolor ruab.
+                </p>
+            </div>
+            <div
+                class="w-[32%] border flex flex-col shadow-[0px_0px_12px_2px_rgba(0,0,0,0.1)] rounded-lg justify-center items-center p-8">
+                <img src="./img/icon/icon-2.png" alt="" class="h-16 w-16">
+                <p class="font-medium my-5">Managed Services</p>
+                <p class="font-light text-center text-gray-600">Clta erat ipsum et lorem et sta ceat ipsum dolor ruab.
+                    Clta erat ipsum et lorem et sta ceat ipsum dolor ruab.
+                </p>
+            </div>
+            <div
+                class="w-[32%] border flex flex-col shadow-[0px_0px_12px_2px_rgba(0,0,0,0.1)] rounded-lg justify-center items-center p-8">
+                <img src="./img/icon/icon-2.png" alt="" class="h-16 w-16">
+                <p class="font-medium my-5">Managed Services</p>
+                <p class="font-light text-center text-gray-600">Clta erat ipsum et lorem et sta ceat ipsum dolor ruab.
+                    Clta erat ipsum et lorem et sta ceat ipsum dolor ruab.
+                </p>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="container w-2/3 mx-auto mt-24">
+        <div class="w-2/6">
+            <p class="text-blue-500 text-xl my-3 ">Our Projects</p>
+            <p class="text-4xl font-medium ">We've Done Lots of Awesome Projects</p>
+        </div>
+        <div class="flex flex-row justify-end mt-[-2.35rem] items-center gap-5 text-lg">
+            <a class=""><i class="fa-solid button-prev fa-chevron-left px-5"></i></a>
+            <a class=""><i class="fa-solid button-next fa-chevron-right pr-5"></i></a>
+        </div>
+    
+        <div class="slider-container my-12 overflow-hidden">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide w-[32%] border flex flex-col shadow-[0px_0px_12px_2px_rgba(0,0,0,0.1)] rounded-lg">
+                    <img src="./img/project-4.jpg" alt="" class="rounded-t-lg">
+                    <div class="p-4">
+                        <p class="text-lg font-medium">Business Target Market 1</p>
+                        <p class="font-light text-gray-600">Clta erat ipsum et lorem et sta ceat ipsum dolor ruab olson
+                            lorem</p>
+                    </div>
+                </div>
+                <div class="swiper-slide w-[32%] border flex flex-col shadow-[0px_0px_12px_2px_rgba(0,0,0,0.1)] rounded-lg">
+                    <img src="./img/project-3.jpg" alt="" class="rounded-t-lg">
+                    <div class="p-4">
+                        <p class="text-lg font-medium">Business Target Market 2</p>
+                        <p class="font-light text-gray-600">Clta erat ipsum et lorem et sta ceat ipsum dolor ruab olson
+                            lorem</p>
+                    </div>
+                </div>
+                <div class="swiper-slide w-[32%] border flex flex-col shadow-[0px_0px_12px_2px_rgba(0,0,0,0.1)] rounded-lg">
+                    <img src="./img/project-1.jpg" alt="" class="rounded-t-lg">
+                    <div class="p-4">
+                        <p class="text-lg font-medium">Business Target Market 3</p>
+                        <p class="font-light text-gray-600">Clta erat ipsum et lorem et sta ceat ipsum dolor ruab olson
+                            lorem</p>
+                    </div>
+                </div>
+                <div class="swiper-slide w-[32%] border flex flex-col shadow-[0px_0px_12px_2px_rgba(0,0,0,0.1)] rounded-lg">
+                    <img src="./img/project-1.jpg" alt="" class="rounded-t-lg">
+                    <div class="p-4">
+                        <p class="text-lg font-medium">Business Target Market 3</p>
+                        <p class="font-light text-gray-600">Clta erat ipsum et lorem et sta ceat ipsum dolor ruab olson
+                            lorem</p>
+                    </div>
+                </div>
+                <div class="swiper-slide w-[32%] border flex flex-col shadow-[0px_0px_12px_2px_rgba(0,0,0,0.1)] rounded-lg">
+                    <img src="./img/project-1.jpg" alt="" class="rounded-t-lg">
+                    <div class="p-4">
+                        <p class="text-lg font-medium">Business Target Market 3</p>
+                        <p class="font-light text-gray-600">Clta erat ipsum et lorem et sta ceat ipsum dolor ruab olson
+                            lorem</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mx-auto w-2/3 flex flex-row justify-between gap-6 mt-20">
+        <div class="w-6/12 flex flex-col">
+            <div>
+                <p class="text-blue-500 text-xl my-3">Get A Quote</p>
+                <p class="text-[2.7rem] leading-[3rem] font-medium">Need our Expert Help?</p>
+                <p class="text-[2.7rem] leading-[3.2rem] font-medium">We're Here!</p>
+            </div>
+            <div class="my-5 flex flex-col gap-6 text-gray-600 font-light">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel ab nostrum non aliquid sit ad quam eos
+                    deserunt quisquam! Dolorum, temporibus enim. Opium lorem usto non aliquid sit ad quam </p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel ab nostrum non aliquid sit ad quam eos
+                    deserunt quisquam! Dolorum, temporibus enim. Opium lorem usto non aliquid sit ad quam </p>
+                <button class="flex flex-row justify-between w-[30%] border-blue-600 border-2 bg-white rounded-lg">
+                    <span class="w-1/4 py-3 bg-blue-600 h-full rounded-s-lg text-white border border-blue-600"><i
+                            class="fa-solid fa-phone"></i></span>
+                    <p class="w-3/4 py-3 text-blue-600  rounded-lg font-medium text-lg">+012 345 6789</p>
+                </button>
+            </div>
+
+        </div>
+        <div class="w-6/12 flex flex-col">
+            <div>
+                <p class="font-medium text-3xl mt-3 mb-4">Get A Free Quote</p>
+            </div>
+
+            <form action="">
+                <div class="mt-2 flex flex-col gap-3">
+                    <div class="flex flex-row justify-between ">
+                        <input type="text" placeholder="Your Name"
+                            class="py-4 px-3 w-[48%] border-2 border-gray-300 bg-transparent rounded-lg">
+                        <input type="text" placeholder="Your Email"
+                            class="py-4 px-3 w-[48%] border-2 border-gray-300 bg-transparent rounded-lg">
+                    </div>
+                    <div class="flex flex-row justify-between ">
+                        <input type="text" placeholder="Your Mobile"
+                            class="py-4 px-3 w-[48%] border-2 border-gray-300 bg-transparent rounded-lg">
+                        <select name="choose" id=""
+                            class="py-4 px-3 w-[48%] font-light text-gray-600 border-2 border-gray-300 bg-transparent rounded-lg">
+                            <option value="1" class="">Digital Marketing</option>
+                            <option value="2" class="">Social Marketing</option>
+                            <option value="3" class="">Content Marketing </option>
+                            <option value="4" class="">E-mail Marketing</option>
+                        </select>
+                    </div>
+                    <div>
+                        <textarea name="" id=""
+                            class="h-32 p-3 w-full border-2 border-gray-300 bg-transparent rounded-lg"
+                            placeholder="Message"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="py-4 w-full  bg-blue-600 text-white  rounded-lg"><span>Submit
+                                Now</span></button>
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+
+    <div class="container w-2/3 mx-auto mt-24">
+        <div class="">
+            <p class="text-blue-500 text-xl text-center my-3">Our Team</p>
+            <p class="text-4xl text-center my-3 font-bold">Our Expert People <br> Ready To Help You</p>
+        </div>
+        <div class=" flex flex-wrap justify-between my-1">
+            <div class="w-[24%] border flex flex-col shadow-[0px_0px_12px_2px_rgba(0,0,0,0.07)] rounded-lg">
+                <img src="./img/team-1.jpg" alt="" class="rounded-t-lg">
+                <div class="p-5 text-lg">
+                    <p class="text-lg font-medium text-center">Alex Robin</p>
+                    <p class="text-blue-600 text-center">Founder & CEO</p>
+                </div>
+            </div>
+            <div class="w-[24%] border flex flex-col shadow-[0px_0px_12px_2px_rgba(0,0,0,0.07)] rounded-lg">
+                <img src="./img/team-2.jpg" alt="" class="rounded-t-lg">
+                <div class="p-5 text-lg">
+                    <p class="text-lg font-medium text-center">Adam Crew</p>
+                    <p class="text-blue-600 text-center">Co Founder</p>
+                </div>
+            </div>
+            <div class="w-[24%] border flex flex-col shadow-[0px_0px_12px_2px_rgba(0,0,0,0.07)] rounded-lg">
+                <img src="./img/team-3.jpg" alt="" class="rounded-t-lg">
+                <div class="p-5 text-lg">
+                    <p class="text-lg font-medium text-center">Boris Johnson</p>
+                    <p class="text-blue-600 text-center">Executive Manager</p>
+                </div>
+            </div>
+            <div class="w-[24%] border flex flex-col shadow-[0px_0px_12px_2px_rgba(0,0,0,0.07)] rounded-lg">
+                <img src="./img/team-4.jpg" alt="" class="rounded-t-lg">
+                <div class="p-5  text-lg">
+                    <p class="text-lg font-medium text-center">Robert Jordan</p>
+                    <p class="text-blue-600 text-center">Digital Marketer</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container w-2/3 mx-auto mt-24">
+        <div class="w-2/6 ">
+            <p class="text-blue-500 text-xl my-3">Testimonial</p>
+            <p class="text-4xl font-medium">What client Say <br> About Our Services!</p>
+        </div>
+        <div class=" flex flex-wrap justify-between my-12 ">
+            <div
+                class="w-[32%] border flex flex-col shadow-[0px_0px_12px_2px_rgba(0,0,0,0.05)] rounded-lg px-8 py-12 justify-center gap-5">
+                <img src="./img/testimonial-3.jpg" alt="" class="rounded-full h-28 w-28 ms-4">
+                <p class="px-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe officiis tenetur, odio
+                    explicabo error est earum rerum perferendis sapiente aut sed ipsa Laboriosam, sit!</p>
+                <div class="px-4">
+                    <p class="text-lg font-medium">Client name</p>
+                    <p class="font-light text-blue-600">Profession</p>
+                </div>
+            </div>
+            <div
+                class="w-[32%] border flex flex-col shadow-[0px_0px_12px_2px_rgba(0,0,0,0.05)] rounded-lg px-8 py-12 justify-center gap-5">
+                <img src="./img/testimonial-4.jpg" alt="" class="rounded-full h-28 w-28 ms-4">
+                <p class="px-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe officiis tenetur, odio
+                    explicabo error est earum rerum perferendis sapiente aut sed ipsa Laboriosam, sit!</p>
+                <div class="px-4">
+                    <p class="text-lg font-medium">Client name</p>
+                    <p class="font-light text-blue-600">Profession</p>
+                </div>
+            </div>
+            <div
+                class="w-[32%] border flex flex-col shadow-[0px_0px_12px_2px_rgba(0,0,0,0.05)] rounded-lg px-8 py-12 justify-center gap-5">
+                <img src="./img/testimonial-1.jpg" alt="" class="rounded-full h-28 w-28 ms-4">
+                <p class="px-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe officiis tenetur, odio
+                    explicabo error est earum rerum perferendis sapiente aut sed ipsa Laboriosam, sit!</p>
+                <div class="px-4">
+                    <p class="text-lg font-medium">Client name</p>
+                    <p class="font-light text-blue-600">Profession</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="mt-20 flex flex-row px-10 bg-slate-900 justify-center">
+        <div class="p-12 w-2/12">
+            <p class="text-xl text-white">Our Office</p>
+            <div class="mt-5 text-gray-400 flex flex-col gap-1">
+                <p class="">
+                    <i class="pr-3 fa-solid fa-location-dot"></i> <span> 123 Street, New York, USA</span>
+                </p>
+                <p class="">
+                    <i class="pr-3 fa-solid fa-phone"></i> <span> +012 345 67890</span>
+                </p>
+                <p class="">
+                    <i class="pr-3 fa-solid fa-envelope"></i> <span> info@example.com</span>
+                </p>
+            </div>
+            <div class="my-8">
+                <div class="flex gap-2">
+                    <button class="h-8 w-8 fa-md bg-white rounded-full text-black flex justify-center items-center">
+                        <i class="fa-brands fa-twitter "></i>
+                    </button>
+                    <button class="h-8 w-8 fa-md bg-white rounded-full text-black flex justify-center items-center">
+                        <i class="fa-brands fa-facebook-f fa-sm "></i>
+                    </button>
+                    <button class="h-8 w-8 fa-md bg-white rounded-full text-black flex justify-center items-center">
+                        <i class="fa-brands fa-youtube fa-sm "></i>
+                    </button>
+                    <button class="h-8 w-8 fa-md bg-white rounded-full text-black flex justify-center items-center">
+                        <i class="fa-brands fa-linkedin-in fa-sm "></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="p-12 px-8 w-2/12">
+            <p class="text-xl text-white">Quick Links</p>
+            <div class="mt-5">
+                <ul class="text-gray-400 flex flex-col gap-1">
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Our Services</li>
+                    <li>Terms & Conditions</li>
+                    <li>Support</li>
+                </ul>
+            </div>
+        </div>
+        <div class="p-12 px-8 w-2/12">
+            <p class="text-xl text-white">Business Hours</p>
+            <div class="mt-5">
+                <p class="text-gray-500">Monday-Friday</p>
+                <p class="text-white">09:00 am - 07:00pm</p>
+                <p class="text-gray-500">Saturday</p>
+                <p class="text-white">09:00 am - 07:00pm</p>
+                <p class="text-gray-500">Sunday</p>
+                <p class="text-white">Closed</p>
+            </div>
+        </div>
+        <div class="p-12 px-8 w-2/12">
+            <p class="text-xl text-white">Newsletter</p>
+            <p class="text-gray-500 mt-5">Lorem ipsum dolor sit amet consec tetur adipisicing elit</p>
+            <div class="rounded-lg mt-4 py-1 px-2 w-full flex justify-between border border-white">
+                <input type="email" name="" id="" class="bg-transparent w-2/4" placeholder="Your Email">
+                <button class="py-2 px-3 bg-white rounded-xl">Sign Up</button>
+            </div>
+        </div>
+    </div>
+    <div class="p-4 bg-slate-950">
+        <div class="text-white flex justify-around">
+            <p>Site Name </p>
+            <p>Designed By HTML COdex Theme Wagon Distributed</p>
+        </div>
+    </div>
+
+    <script>
+        const slider = new Swiper('.slider-container', {
+                slidesPerView: 3,
+                spaceBetween: 20,
+                loop: true, // Enables infinite scrolling
+                navigation: {
+                    nextEl: '.button-next',
+                    prevEl: '.button-prev',
+                },
+                breakpoints: {
+                    640: {
+                        slidesPerView: 1,
+                        spaceBetween: 10,
+                    },
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 15,
+                    },
+                    1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 20,
+                    },
+                },
+            });
+
+
+                const swiper = new Swiper('.swiper-container', {
+                        loop: true,
+                        autoplay: {
+                            delay: 5000,
+                            disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: '.swiper-pagination',
+                            clickable: true,
+                        },
+                        navigation: {
+                            nextEl: '.swiper-button-next',
+                            prevEl: '.swiper-button-prev',
+                        },
+                        breakpoints: {
+                            640: {    // Small screens and up
+                                slidesPerView: 1,
+                                spaceBetween: 10,
+                            },
+                            768: {    // Medium screens and up
+                                slidesPerView: 1,
+                                spaceBetween: 20,
+                            },
+                            1024: {   // Large screens and up
+                                slidesPerView: 1,
+                                spaceBetween: 30,
+                            },
+                        },
+                    });
+
+
+    </script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
